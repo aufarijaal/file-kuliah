@@ -1,0 +1,12 @@
+D:\CodingKu\C Rajeg\source\repos\AplikasiHotel\AplikasiHotel\bin\Debug\AplikasiHotel.exe.config
+D:\CodingKu\C Rajeg\source\repos\AplikasiHotel\AplikasiHotel\bin\Debug\AplikasiHotel.exe
+D:\CodingKu\C Rajeg\source\repos\AplikasiHotel\AplikasiHotel\bin\Debug\AplikasiHotel.pdb
+D:\CodingKu\C Rajeg\source\repos\AplikasiHotel\AplikasiHotel\obj\Debug\AplikasiHotel.csprojAssemblyReference.cache
+D:\CodingKu\C Rajeg\source\repos\AplikasiHotel\AplikasiHotel\obj\Debug\AplikasiHotel.Form1.resources
+D:\CodingKu\C Rajeg\source\repos\AplikasiHotel\AplikasiHotel\obj\Debug\AplikasiHotel.hotel.resources
+D:\CodingKu\C Rajeg\source\repos\AplikasiHotel\AplikasiHotel\obj\Debug\AplikasiHotel.Help.resources
+D:\CodingKu\C Rajeg\source\repos\AplikasiHotel\AplikasiHotel\obj\Debug\AplikasiHotel.Properties.Resources.resources
+D:\CodingKu\C Rajeg\source\repos\AplikasiHotel\AplikasiHotel\obj\Debug\AplikasiHotel.csproj.GenerateResource.cache
+D:\CodingKu\C Rajeg\source\repos\AplikasiHotel\AplikasiHotel\obj\Debug\AplikasiHotel.csproj.CoreCompileInputs.cache
+D:\CodingKu\C Rajeg\source\repos\AplikasiHotel\AplikasiHotel\obj\Debug\AplikasiHotel.exe
+D:\CodingKu\C Rajeg\source\repos\AplikasiHotel\AplikasiHotel\obj\Debug\AplikasiHotel.pdb
