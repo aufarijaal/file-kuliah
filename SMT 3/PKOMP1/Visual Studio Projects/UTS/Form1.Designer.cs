@@ -30,10 +30,10 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtPass = new System.Windows.Forms.TextBox();
-            this.txtuser = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.txtuser = new System.Windows.Forms.TextBox();
+            this.txtpass = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -55,21 +55,6 @@
             this.label2.Size = new System.Drawing.Size(77, 18);
             this.label2.TabIndex = 1;
             this.label2.Text = "Password";
-            // 
-            // txtPass
-            // 
-            this.txtPass.Location = new System.Drawing.Point(145, 88);
-            this.txtPass.Name = "txtPass";
-            this.txtPass.PasswordChar = '*';
-            this.txtPass.Size = new System.Drawing.Size(179, 20);
-            this.txtPass.TabIndex = 2;
-            // 
-            // txtuser
-            // 
-            this.txtuser.Location = new System.Drawing.Point(145, 50);
-            this.txtuser.Name = "txtuser";
-            this.txtuser.Size = new System.Drawing.Size(179, 20);
-            this.txtuser.TabIndex = 3;
             // 
             // button1
             // 
@@ -93,15 +78,29 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // txtuser
+            // 
+            this.txtuser.Location = new System.Drawing.Point(159, 52);
+            this.txtuser.Name = "txtuser";
+            this.txtuser.Size = new System.Drawing.Size(165, 20);
+            this.txtuser.TabIndex = 6;
+            // 
+            // txtpass
+            // 
+            this.txtpass.Location = new System.Drawing.Point(159, 88);
+            this.txtpass.Name = "txtpass";
+            this.txtpass.Size = new System.Drawing.Size(165, 20);
+            this.txtpass.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(409, 184);
+            this.Controls.Add(this.txtpass);
+            this.Controls.Add(this.txtuser);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.txtuser);
-            this.Controls.Add(this.txtPass);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -115,10 +114,10 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtPass;
-        private System.Windows.Forms.TextBox txtuser;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox txtuser;
+        private System.Windows.Forms.TextBox txtpass;
     }
 }
 

@@ -19,7 +19,7 @@ namespace UTS
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string pass = txtPass.Text;
+            string pass = txtpass.Text;
             string username = txtuser.Text;
 
             if (pass.Equals("admin") && username.Equals("admin"))
@@ -31,13 +31,13 @@ namespace UTS
             }
             else
             {
-                MessageBox.Show("Maaf, Username atau Password salah")
+                MessageBox.Show("Maaf, Username atau Password salah");
             }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            txtPass.Text = "";
+            txtpass.Text = "";
             txtuser.Text = "";
         }
     }
