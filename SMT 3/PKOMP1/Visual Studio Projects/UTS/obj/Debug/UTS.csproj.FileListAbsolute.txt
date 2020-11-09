@@ -9,7 +9,6 @@ R:\Aufa\MY-REPOSITORIES\file-kuliah\SMT 3\PKOMP1\Visual Studio Projects\UTS\obj\
 R:\Aufa\MY-REPOSITORIES\file-kuliah\SMT 3\PKOMP1\Visual Studio Projects\UTS\obj\Debug\UTS.csproj.CoreCompileInputs.cache
 R:\Aufa\MY-REPOSITORIES\file-kuliah\SMT 3\PKOMP1\Visual Studio Projects\UTS\obj\Debug\UTS.exe
 R:\Aufa\MY-REPOSITORIES\file-kuliah\SMT 3\PKOMP1\Visual Studio Projects\UTS\obj\Debug\UTS.pdb
-R:\Aufa\MY-REPOSITORIES\file-kuliah\SMT 3\PKOMP1\Visual Studio Projects\UTS\bin\Debug\MySql.Data.DLL
 R:\Aufa\MY-REPOSITORIES\file-kuliah\SMT 3\PKOMP1\Visual Studio Projects\UTS\obj\Debug\UTS.csproj.CopyComplete
 R:\Aufa\MY-REPOSITORIES\file-kuliah\SMT 3\PKOMP1\Visual Studio Projects\UTS\bin\Debug\Renci.SshNet.Async.dll
 R:\Aufa\MY-REPOSITORIES\file-kuliah\SMT 3\PKOMP1\Visual Studio Projects\UTS\bin\Debug\Renci.SshNet.dll
