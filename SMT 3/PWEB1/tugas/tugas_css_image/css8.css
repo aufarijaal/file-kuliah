@@ -1,0 +1,36 @@
+* {
+	margin: 0px auto;
+}
+body {
+	font-family: calibri, verdana, sans-serif;
+}
+#wrapper {
+	width: 100%;
+	position: relative;
+}
+#header {
+	height: 60px;
+	background: #808080;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+#header a.title {
+	color: #f0f0f0;
+	font-weight: bold;
+	text-decoration:none;
+	font-size: 30px;
+	line-height: 60px;
+	padding: 0px 20px;
+}
+#content {
+	background: #eeeeee;
+	min-height: 1500px;
+	margin: 0px 20px;
+	position: relative;
+}
+#footer {
+	background: #808080;
+	height: 40px;
+	position: relative;
+}
