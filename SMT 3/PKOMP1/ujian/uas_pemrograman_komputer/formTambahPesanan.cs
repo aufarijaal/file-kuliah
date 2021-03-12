@@ -62,24 +62,31 @@ namespace uas_pemrograman_komputer
         }
         protected int n, total = 0;
         int amount;
+
         private void btnRemove_Click(object sender, EventArgs e)
         {
             try
             {
                 if(guna2DataGridView1.SelectedRows.Count > 0) {
                     guna2DataGridView1.Rows.RemoveAt(guna2DataGridView1.SelectedRows[0].Index);
+                    total -= amount;
+                    subTotal.Text = "Rp. " + total;
+                    guna2DataGridView1.ClearSelection();
                 }
                 else
                 {
                     MessageBox.Show("Pilih baris yang ingin dihapus");
+                }
+                if(total == 0)
+                {
+                    MessageBox.Show("Pesanan kosong");
+                    amount = 0;
                 }
             }
             catch (Exception anu)
             {
 
             }
-            total -= amount;
-            subTotal.Text = "Rp. " + total;
         }
 
         private void guna2DataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -108,7 +115,7 @@ namespace uas_pemrograman_komputer
             {
                 for (counter = 0; counter < guna2DataGridView1.Rows.Count - 1; counter++)
                 {
-                    q = $"INSERT INTO laporan (id, menu, harga, tanggal) VALUES (NULL, '{guna2DataGridView1.Rows[counter].Cells[0].Value}({guna2DataGridView1.Rows[counter].Cells[2].Value.ToString()})', '{guna2DataGridView1.Rows[counter].Cells[3].Value}', '{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}');";
+                    q = $"INSERT INTO laporan (id, menu, harga, tanggal) VALUES (NULL, '{guna2DataGridView1.Rows[counter].Cells[0].Value}({guna2DataGridView1.Rows[counter].Cells[2].Value})', '{guna2DataGridView1.Rows[counter].Cells[3].Value}', '{DateTime.Now:yyyy-MM-dd HH:mm:ss}');";
                     fn.setData(q);
                 }
             }
@@ -147,6 +154,11 @@ namespace uas_pemrograman_komputer
         }
 
         private void formTambahPesanan_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void guna2DataGridView1_SelectionChanged(object sender, EventArgs e)
         {
             
         }
